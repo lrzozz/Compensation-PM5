@@ -1,0 +1,20 @@
+# Compensation Settings
+# Use § For Color Code
+
+#FORM
+Title-Form: "§eCompensation"
+Content-Form: "Edit in config.yml"
+Claim-Compensation: "§aClaim Compensation\n§rClick To Claim"
+Exit: "§cExit\n§rClick To Enter"
+
+#PREFIX
+Prefix: "§e[Compensation] "
+
+#MESSAGE
+msg-claimed: "§cYou Have Claimed Your Compensation Prize!"
+msg-success: "§a{player} Get Compensation Rewards"
+
+#REWARD
+Reward:
+  - "give {player} apple 16"
+  - "give {player} diamond 1"

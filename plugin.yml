@@ -1,0 +1,16 @@
+name: Compensation
+main: OzzyLuxx\Compensation\Compensation
+api: 5.0.0
+author: lrzozzys
+version: 1.0.0
+description: "Claim Compensation Prize"
+
+commands:
+   compensation:
+     description: "Open the Form to Claim Compensation"
+     aliases: [cn, ccn, cnui]
+     permission: compensation.superuser
+
+permissions:
+   compensation.superuser:
+     default: true
